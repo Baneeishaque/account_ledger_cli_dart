@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="account_ledger_cli VerifyGist" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <option name="arguments" value="VerifyGist" />
+    <option name="filePath" value="$PROJECT_DIR$/bin/account_ledger_cli.dart" />
+    <method v="2" />
+  </configuration>
+</component>
