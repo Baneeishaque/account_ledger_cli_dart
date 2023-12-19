@@ -2,11 +2,15 @@ name: account_ledger_cli_dart
 description: A sample command-line application with basic argument parsing.
 version: 0.0.1
 
+publish_to: none
+
 environment:
   sdk: ^3.3.0-239.0.dev
 
 dependencies:
   args: ^2.4.2
+  account_ledger_library:
+    path: account_ledger_library_dart
 
 dev_dependencies:
   lints: ^3.0.0

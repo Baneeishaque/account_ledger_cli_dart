@@ -1,3 +1,4 @@
+import 'package:account_ledger_library/account_ledger_cli.dart';
 import 'package:args/args.dart';
 
 const String version = '0.0.1';
@@ -24,7 +25,7 @@ ArgParser buildParser() {
 }
 
 void printUsage(ArgParser argParser) {
-  print('Usage: dart account_ledger_cli_dart.dart <flags> [arguments]');
+  print('Usage: dart account_ledger_cli.dart <flags> [arguments]');
   print(argParser.usage);
 }
 
@@ -52,6 +53,8 @@ void main(List<String> arguments) {
     if (verbose) {
       print('[VERBOSE] All arguments: ${results.arguments}');
     }
+
+    startAccountLedgerCli();
   } on FormatException catch (e) {
     // Print usage information if an invalid argument was provided.
     print(e.message);
