@@ -10,6 +10,10 @@ class GetAccountsAccountLedgerCommand extends Command {
 
   @override
   void run() {
-    print(runAccountLedgerGetAccountsOperation());
+    print(runAccountLedgerGetAccountsOperation(
+      actionsBeforeExecution: () {
+        print('Running GetAccounts Operation');
+      },
+    ));
   }
 }
