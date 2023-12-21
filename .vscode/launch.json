@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "account_ledger_cli_dart",
+            "program": "bin/account_ledger_cli_dart.dart",
+            "args": [
+                "ProcessGistV2",
+                "--verbose"
+            ],
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
