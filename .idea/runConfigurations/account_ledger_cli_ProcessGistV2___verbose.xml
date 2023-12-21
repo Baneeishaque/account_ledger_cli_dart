@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="account_ledger_cli ProcessGistV2 --verbose" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
     <option name="arguments" value="ProcessGistV2 --verbose" />
-    <option name="filePath" value="$PROJECT_DIR$/bin/account_ledger_cli.dart" />
+    <option name="filePath" value="$PROJECT_DIR$/bin/account_ledger_cli_dart.dart" />
     <method v="2" />
   </configuration>
 </component>
