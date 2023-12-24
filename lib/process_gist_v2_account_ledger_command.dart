@@ -21,7 +21,7 @@ class ProcessGistV2AccountLedgerCommand extends Command {
         print('Running GistV2 Operation');
       },
       actionsAfterExecution: (String result) {
-        print('Result : $result');
+        // print('Result : $result');
       },
     ))));
   }
