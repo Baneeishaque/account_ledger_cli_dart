@@ -9,6 +9,8 @@
       <excludeFolder url="file://$MODULE_DIR$/account_ledger_library_dart/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/account_ledger_library_dart/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/account_ledger_library_dart/build" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/httpRequests" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/libraries" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

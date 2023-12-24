@@ -14,8 +14,8 @@ class ProcessGistV2AccountLedgerCommand extends Command {
   String get name => "ProcessGistV2";
 
   @override
-  void run() {
-    processAccountLedgerGistV2InterActive(AccountLedgerGistV2Model.fromJson(
+  Future<void> run() async {
+    await processAccountLedgerGistV2InterActive(AccountLedgerGistV2Model.fromJson(
         jsonDecode(runAccountLedgerGistV2Operation(
       actionsBeforeExecution: () {
         print('Running GistV2 Operation');
