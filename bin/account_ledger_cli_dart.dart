@@ -12,7 +12,7 @@ void printUsage(ArgParser argParser) {
   print(argParser.usage);
 }
 
-void main(List<String> arguments) {
+Future<void> main(List<String> arguments) async {
   CommandRunner accountLedgerCliCommandRunner = AccountLedgerCliCommandRunner();
   final ArgResults results;
   try {
@@ -52,7 +52,7 @@ void main(List<String> arguments) {
     }
 
     if (results.command == null) {
-      startAccountLedgerCli();
+      await startAccountLedgerCli();
     } else {
       try {
         accountLedgerCliCommandRunner.run(arguments);
