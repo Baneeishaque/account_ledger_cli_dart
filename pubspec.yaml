@@ -5,7 +5,7 @@ version: 0.0.1
 publish_to: none
 
 environment:
-  sdk: ^3.3.0-239.0.dev
+  sdk: ^3.2.4
 
 dependencies:
   args: ^2.4.2
