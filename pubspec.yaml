@@ -11,6 +11,7 @@ dependencies:
   args: ^2.4.2
   account_ledger_library:
     path: account_ledger_library_dart
+  tuple: ^2.0.2
 
 dev_dependencies:
   lints: ^3.0.0
