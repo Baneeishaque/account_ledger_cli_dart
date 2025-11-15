@@ -33,6 +33,7 @@ doc/api/
 ### Dart Patch ###
 # dotenv environment variables file
 .env
+!.env_example
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
