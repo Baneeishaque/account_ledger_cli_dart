@@ -15,7 +15,7 @@ jobs:
         with:
           submodules: recursive
 
-      - uses: dart-lang/setup-dart@7f54cd0cee53e120db0d1fce4196b7772ebd6f6e
+      - uses: dart-lang/setup-dart@0bdb60234eb044854c1c73fb77b0f063cf290512
         with:
           sdk: main
           flavor: raw
